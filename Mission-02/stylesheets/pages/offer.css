@@ -1,0 +1,106 @@
+/* 오늘의 쇼핑 제안 */
+.wrapper {
+  width: 1022px;
+  margin: 0 auto;
+  /* border: 1px solid black; */
+}
+header,
+header h1 a picture source,
+header h1 a picture img {
+  height: 40px;
+}
+header {
+  /* background-color: tomato; */
+  margin: 100px 0 48px 0;
+}
+.section {
+  width: 100%;
+  height: 354px;
+}
+.titleDiv {
+  display: flex;
+  align-items: center;
+  margin-bottom: 24px;
+  width: 243px;
+  height: 30px;
+}
+.imgContainer {
+  height: 270px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  /* background-color: tomato; */
+}
+.tab {
+  width: 200px;
+  height: 270px;
+  /* background-color: gold; */
+}
+.productImg{
+  width: 160px;
+  height: 160px;
+  margin: 14px 0 12px 20px;
+}
+.info {
+  width: 172px;
+  height: 46px;
+  /* background-color: aqua; */
+  margin-left: 12px;
+  font-size: 14px;
+}
+.extra {
+  width: 117px;
+  height: 38px;
+  color: var(--color-gray-700);
+}
+.extra > div:first-child {
+  margin-bottom: 4px;
+}
+.rateComment {
+  height: 17px;
+  color: var(--color-gray-700);
+}
+.rateComment img {
+  width: 68px;
+  height: 12px;
+}
+.discount {
+  width: 53px;
+  height: 30px;
+  background-color: var(--color-red-500);
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  color: white;
+  border-bottom-right-radius: 5px;
+}
+.stars {
+  width: 68px;
+  height: 12px;
+  /* background-image: url("/Mission-02/assets/sprites/rating-stars.png"); */
+  background-image: url("../../assets/sprites/rating-stars.png");
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+.s4 {
+  background-position: 100% 80%;
+}
+.s4_5 {
+  background-position: 100% 90%;
+}
+.s5 {
+  background-position: 100% 100%;
+}
+.shoppingIcon {
+  width: 30px;
+  height: 30px;
+  background-image: url("../../assets/icon/shopping.svg");
+}
+.rocketIcon{
+  width: 55px;
+  height: 16px;
+  margin-bottom: 3px;
+}
